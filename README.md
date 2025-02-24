@@ -98,6 +98,7 @@ gradlew bootRun
 - **Swagger UI:** [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 
 ### 8. Pruebas del proyecto
+Ejecuta el siguiente comando:
 ```sh
 # En Linux/Mac
 ./gradlew test
@@ -105,6 +106,7 @@ gradlew bootRun
 # En Windows
 gradlew test
 ```
+Revisa el reporte de resultados en `build/reports/tests/test/index.html.`
 
 ## Endpoints Principales
 
