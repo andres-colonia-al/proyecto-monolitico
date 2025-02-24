@@ -206,7 +206,7 @@ Se requiere el token para acceder a los siguientes endpoints debido a que están
 
 ## 📄 API Swagger
 Documentación de la API en:  
-
+<img width="1433" alt="Image" src="https://github.com/user-attachments/assets/9ac3efef-bdbd-4352-95af-3790a98e8c11" />
 
 ## 📌 Autor
 **Andrés Felipe Colonia Aldana**
