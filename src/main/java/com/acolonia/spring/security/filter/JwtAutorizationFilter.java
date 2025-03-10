@@ -30,6 +30,12 @@ public class JwtAutorizationFilter extends OncePerRequestFilter {
                                     @NonNull HttpServletResponse response,
                                     @NonNull FilterChain filterChain) throws ServletException, IOException {
 
+
+        //1. Validar que sea un Header Authorization valido
+        //2. Valida que el jwt sea valido
+        //3. cargar el usuario del UserDetailService
+        //4. Cargr al usuario en el contexto de seguridad
+
         String tokenHeader = request.getHeader("Authorization");
 
         if (tokenHeader != null && tokenHeader.startsWith("Bearer ")){
